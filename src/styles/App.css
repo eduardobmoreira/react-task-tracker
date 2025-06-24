@@ -1,0 +1,39 @@
+.filters button {
+  margin: 0 5px;
+}
+.filters button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.filters {
+  margin: 1rem 0;
+}
+
+.filter-btn {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #888;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn.active.all {
+  background-color: #003366; /* Dark Blue */
+}
+
+.filter-btn.active.completed {
+  background-color: #b8860b; /* Dark Yellow */
+}
+
+.filter-btn.active.pending {
+  background-color: #006400; /* Dark Green */
+}
